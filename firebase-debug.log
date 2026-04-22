@@ -1,0 +1,46 @@
+[debug] [2026-04-22T06:26:06.674Z] ----------------------------------------------------------------------
+[debug] [2026-04-22T06:26:06.708Z] Command:       /Users/a17/.nvm/versions/node/v22.14.0/bin/node /Users/a17/.nvm/versions/node/v22.14.0/bin/firebase login
+[debug] [2026-04-22T06:26:06.708Z] CLI Version:   15.15.0
+[debug] [2026-04-22T06:26:06.708Z] Platform:      darwin
+[debug] [2026-04-22T06:26:06.708Z] Node Version:  v22.14.0
+[debug] [2026-04-22T06:26:06.709Z] Time:          Wed Apr 22 2026 14:26:06 GMT+0800 (China Standard Time)
+[debug] [2026-04-22T06:26:06.709Z] ----------------------------------------------------------------------
+[debug] 
+[info] Already logged in as adidyadarmawan12@gmail.com
+[debug] [2026-04-22T06:26:16.830Z] Error: Timed out.
+    at Timeout._onTimeout (/Users/a17/.nvm/versions/node/v22.14.0/lib/node_modules/firebase-tools/lib/utils.js:309:49)
+    at listOnTimeout (node:internal/timers:594:17)
+    at process.processTimers (node:internal/timers:529:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-04-22T06:28:47.338Z] ----------------------------------------------------------------------
+[debug] [2026-04-22T06:28:47.344Z] Command:       /usr/local/Cellar/node/23.10.0_1/bin/node /Users/a17/.npm/_npx/ba4f1959e38407b5/node_modules/.bin/firebase projects:list --json
+[debug] [2026-04-22T06:28:47.345Z] CLI Version:   15.15.0
+[debug] [2026-04-22T06:28:47.345Z] Platform:      darwin
+[debug] [2026-04-22T06:28:47.346Z] Node Version:  v23.10.0
+[debug] [2026-04-22T06:28:47.346Z] Time:          Wed Apr 22 2026 14:28:47 GMT+0800 (China Standard Time)
+[debug] [2026-04-22T06:28:47.346Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-04-22T06:28:47.357Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-04-22T06:28:47.357Z] > authorizing via signed-in user (adidyadarmawan12@gmail.com)
+[debug] [2026-04-22T06:28:47.363Z] Checked if tokens are valid: true, expires at: 1776841482009
+[debug] [2026-04-22T06:28:47.363Z] Checked if tokens are valid: true, expires at: 1776841482009
+[debug] [2026-04-22T06:28:47.365Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2026-04-22T06:28:47.736Z] ----------------------------------------------------------------------
+[debug] [2026-04-22T06:28:47.739Z] Command:       /usr/local/Cellar/node/23.10.0_1/bin/node /Users/a17/.npm/_npx/ba4f1959e38407b5/node_modules/.bin/firebase login:list
+[debug] [2026-04-22T06:28:47.740Z] CLI Version:   15.15.0
+[debug] [2026-04-22T06:28:47.740Z] Platform:      darwin
+[debug] [2026-04-22T06:28:47.740Z] Node Version:  v23.10.0
+[debug] [2026-04-22T06:28:47.741Z] Time:          Wed Apr 22 2026 14:28:47 GMT+0800 (China Standard Time)
+[debug] [2026-04-22T06:28:47.741Z] ----------------------------------------------------------------------
+[debug] 
+[info] Logged in as adidyadarmawan12@gmail.com
+[debug] [2026-04-22T06:28:51.207Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2026-04-22T06:28:51.207Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] ┌──────────────────────┬───────────────┬────────────────┬──────────────────────┐
+│ Project Display Name │ Project ID    │ Project Number │ Resource Location ID │
+├──────────────────────┼───────────────┼────────────────┼──────────────────────┤
+│ todoapp              │ todoapp-92da1 │ 780812753568   │ [Not specified]      │
+└──────────────────────┴───────────────┴────────────────┴──────────────────────┘
+[info] 
+[info] 1 project(s) total.
